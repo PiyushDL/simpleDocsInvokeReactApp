@@ -25,7 +25,7 @@ export default function App() {
   }
 
   const handleRedirect = () => {
-    window.open('http://localhost:3000/rfelogs/create-rfelog?invokeAppId=4612376', '_blank')
+    window.open('https://dlzchui.azurewebsites.net/rfelogs/create-rfelog?invokeAppId=4612376', '_blank')
     handleClosePreview()
   }
 
